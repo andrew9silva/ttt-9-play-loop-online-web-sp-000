@@ -36,9 +36,9 @@ def turn(board)
 end
 
 def play(board)
-  counter = input_to_index 
-  until counter == 10
+  turns = 1
+  until turns == 10
     turn(board)
-    counter += 1
+    turns += 1
   end
 end
